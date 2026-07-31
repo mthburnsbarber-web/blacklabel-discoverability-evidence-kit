@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use the BlackLabel Discoverability Evidence Kit, cite this repository."
+title: "BlackLabel Discoverability Evidence Kit"
+type: software
+authors:
+  - family-names: Barber
+    given-names: Michael
+version: 0.1.0
+date-released: 2026-07-30
+url: "https://github.com/mthburnsbarber-web/blacklabel-discoverability-evidence-kit"
+license: MIT
+

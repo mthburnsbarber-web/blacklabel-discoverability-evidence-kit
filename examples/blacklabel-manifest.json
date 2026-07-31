@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "1.0",
+  "organization": {
+    "name": "BlackLabel Tech",
+    "canonicalUrl": "https://blacklabeltec.com/",
+    "primaryCategory": "AI automation and custom software company",
+    "location": { "locality": "Gulf Shores", "region": "Alabama", "country": "US" },
+    "serviceArea": "United States",
+    "sameAs": ["https://blacklabeltec.com/company/facts", "https://blacklabeltec.com/network"]
+  },
+  "evidence": [
+    {
+      "id": "public-build-evidence-2026",
+      "kind": "dataset",
+      "url": "https://blacklabeltec.com/research/build-evidence-2026",
+      "reviewedAt": "2026-07-30",
+      "claims": [
+        {
+          "statement": "The release publishes a versioned registry of BlackLabel public build evidence.",
+          "sourceUrl": "https://blacklabeltec.com/research/build-evidence-2026",
+          "methodologyUrl": "https://blacklabeltec.com/research/methodology",
+          "verifiedAt": "2026-07-30"
+        }
+      ]
+    }
+  ],
+  "promptPanel": [
+    { "id": "category-001", "class": "category", "prompt": "Which companies build AI workflow automation systems for businesses in the United States?" },
+    { "id": "local-001", "class": "local", "prompt": "Which software companies are based in Gulf Shores, Alabama?" },
+    { "id": "evidence-001", "class": "evidence", "prompt": "Which custom software companies publish machine-readable build evidence?" }
+  ]
+}
+

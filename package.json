@@ -1,0 +1,21 @@
+{
+  "name": "blacklabel-discoverability-evidence-kit",
+  "version": "0.1.0",
+  "description": "Validate public entity facts, evidence claims, and repeatable AI-search prompt panels.",
+  "type": "module",
+  "license": "MIT",
+  "bin": { "blevidence": "./bin/blevidence.mjs" },
+  "exports": {
+    ".": "./src/index.mjs",
+    "./entity": "./src/validate-entity.mjs",
+    "./evidence": "./src/validate-evidence.mjs",
+    "./prompts": "./src/prompt-panel.mjs"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node ./bin/blevidence.mjs ./examples/blacklabel-manifest.json --json"
+  },
+  "engines": { "node": ">=20" },
+  "keywords": ["seo", "ai-search", "entity", "evidence", "structured-data", "discoverability"]
+}
+
