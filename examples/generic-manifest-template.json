@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.0",
+  "organization": {
+    "name": "Example Company",
+    "canonicalUrl": "https://example.com/",
+    "primaryCategory": "specific company category",
+    "location": {
+      "locality": "City",
+      "region": "State or region",
+      "country": "US"
+    },
+    "serviceArea": "United States"
+  },
+  "evidence": [
+    {
+      "id": "product-page-001",
+      "kind": "product-page",
+      "url": "https://example.com/products/main-product",
+      "reviewedAt": "2026-09-16",
+      "claims": [
+        {
+          "statement": "Example Company offers Main Product for specific buyer type.",
+          "sourceUrl": "https://example.com/products/main-product",
+          "verifiedAt": "2026-09-16"
+        }
+      ]
+    }
+  ],
+  "promptPanel": [
+    {
+      "id": "category-001",
+      "class": "category",
+      "prompt": "Which companies build specific company category software?"
+    }
+  ]
+}

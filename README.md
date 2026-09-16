@@ -71,7 +71,15 @@ The CLI accepts a local JSON file or an HTTPS URL. Add `--json` for machine-read
 
 See [SPEC.md](SPEC.md) for the field contract and [examples/blacklabel-manifest.json](examples/blacklabel-manifest.json) for a live-brand example.
 
+## Free templates
+
+- [Generic manifest template](examples/generic-manifest-template.json) — copy
+  and fill for any organization.
+- [Evidence claim checklist](docs/evidence-claim-checklist.md) — decide whether
+  a public claim is strong enough to include.
+- [AI-search audit prompts](docs/free-ai-search-audit-prompts.md) — repeatable
+  prompts for entity, category, and evidence checks.
+
 ## Project status
 
 Version 0.1 validates the evidence manifest. The project deliberately does not scrape rankings or call commercial AI systems; those measurements belong in an authenticated evaluation runner with preserved engine, time, locale, and answer provenance.
-
